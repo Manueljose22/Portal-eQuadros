@@ -7,6 +7,7 @@ import NewsSection from "../components/news/NewsSection";
 import FunctionalitiesSection from "../components/FunctionalitiesSection/FunctionalitiesSection";
 import SystembenefitsSection from "../components/SystembenefitsSection/SystembenefitsSection";
 import OfertasFormativasSection from "../components/OfertasFormativasSection/OfertasFormativasSection";
+import TestimonialsSection from "../components/TestimonialsSection/TestimonialsSection";
 
 
 
@@ -24,6 +25,7 @@ export default function Home() {
         <FunctionalitiesSection />
         <SystembenefitsSection />
         <OfertasFormativasSection />
+        <TestimonialsSection />
       </main>
       <Footer />
     </div>
