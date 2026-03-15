@@ -29,7 +29,9 @@
     background-color: #20A9E6 !important;
 }
 
-
+.bg-link-hover:hover{
+    background-color: #20A9E6 !important;
+}
 .card-bg {
   background-image: url("./public/img/network.png");
   background-repeat: no-repeat;
