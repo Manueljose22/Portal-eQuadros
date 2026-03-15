@@ -34,19 +34,19 @@ export default function Footer() {
                     </ul>
 
                     <ul className="flex items-center gap-3">
-                        <li className="p-2 bg-white rounded-full text-black hover:scale-110 transition">
+                        <li className="p-2 bg-white rounded-full text-black bg-link-hover transition duration-300">
                             <Link to="/"><BiLogoFacebook /></Link>
                         </li>
 
-                        <li className="p-2 bg-white rounded-full text-black hover:scale-110 transition">
+                        <li className="p-2 bg-white rounded-full text-black bg-link-hover transition duration-300">
                             <Link to="/"><BiLogoTwitter /></Link>
                         </li>
 
-                        <li className="p-2 bg-white rounded-full text-black hover:scale-110 transition">
+                        <li className="p-2 bg-white rounded-full text-black bg-link-hover transition duration-300">
                             <Link to="/"><BiLogoInstagram /></Link>
                         </li>
 
-                        <li className="p-2 bg-white rounded-full text-black hover:scale-110 transition">
+                        <li className="p-2 bg-white rounded-full text-black bg-link-hover transition duration-300">
                             <Link to="/"><BiLogoYoutube /></Link>
                         </li>
                     </ul>
