@@ -2,6 +2,7 @@ import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
 import Hero from "../components/hero/Hero";
 import StatsSection from "../components/statsSection/StatsSection";
+import EcosystemSection from "../components/EcosystemSection/EcosystemSection";
 
 
 
@@ -13,6 +14,8 @@ export default function Home() {
       <main className="flex-grow">
         <Hero />
         <StatsSection />
+
+        <EcosystemSection />
       </main>
       <Footer />
     </div>
