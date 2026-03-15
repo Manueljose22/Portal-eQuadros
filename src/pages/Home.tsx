@@ -9,6 +9,7 @@ import SystembenefitsSection from "../components/SystembenefitsSection/Systemben
 import OfertasFormativasSection from "../components/OfertasFormativasSection/OfertasFormativasSection";
 import TestimonialsSection from "../components/TestimonialsSection/TestimonialsSection";
 import FAQ from "../components/FAQ/Faq";
+import AboutSection from "../components/about/AboutSection";
 
 
 
@@ -20,7 +21,7 @@ export default function Home() {
       <main className="flex-grow">
         <Hero />
         <StatsSection />
-
+        <AboutSection />
         <EcosystemSection />
         <NewsSection/>
         <FunctionalitiesSection />
