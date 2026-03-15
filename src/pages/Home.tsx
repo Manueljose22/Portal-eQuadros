@@ -6,6 +6,7 @@ import EcosystemSection from "../components/EcosystemSection/EcosystemSection";
 import NewsSection from "../components/news/NewsSection";
 import FunctionalitiesSection from "../components/FunctionalitiesSection/FunctionalitiesSection";
 import SystembenefitsSection from "../components/SystembenefitsSection/SystembenefitsSection";
+import OfertasFormativasSection from "../components/OfertasFormativasSection/OfertasFormativasSection";
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
         <NewsSection/>
         <FunctionalitiesSection />
         <SystembenefitsSection />
+        <OfertasFormativasSection />
       </main>
       <Footer />
     </div>
