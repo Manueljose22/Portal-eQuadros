@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.text-primary {
+    color: #20A9E6 !important;
+}
+
+.text-secondary {
+    color: #0B2A5B !important;
+}
+
+.text-tertiary {
+    color: #1e3a5fad !important;
+}
+
+
+.bg-primary {
+    background-color: #0B2A5B !important;
+}
+
+.bg-dark {
+    background-color: #0E2A4A !important;
+}
+
+.btn-primary{
+    background-color: #20A9E6 !important;
+}
+
+
+.card-bg {
+  background-image: url("./public/img/network.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.card-bg-f {
+  background-image: url("./public/img/network2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
