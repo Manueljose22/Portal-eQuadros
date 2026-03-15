@@ -1,5 +1,6 @@
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
+import Hero from "../components/hero/Hero";
 
 
 
@@ -9,6 +10,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-grow">
+        <Hero />
       </main>
       <Footer />
     </div>
