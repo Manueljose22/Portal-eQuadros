@@ -3,6 +3,7 @@ import Footer from "../components/layout/Footer";
 import Hero from "../components/hero/Hero";
 import StatsSection from "../components/statsSection/StatsSection";
 import EcosystemSection from "../components/EcosystemSection/EcosystemSection";
+import NewsSection from "../components/news/NewsSection";
 
 
 
@@ -16,6 +17,7 @@ export default function Home() {
         <StatsSection />
 
         <EcosystemSection />
+        <NewsSection/>
       </main>
       <Footer />
     </div>
