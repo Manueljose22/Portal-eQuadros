@@ -8,6 +8,7 @@ import FunctionalitiesSection from "../components/FunctionalitiesSection/Functio
 import SystembenefitsSection from "../components/SystembenefitsSection/SystembenefitsSection";
 import OfertasFormativasSection from "../components/OfertasFormativasSection/OfertasFormativasSection";
 import TestimonialsSection from "../components/TestimonialsSection/TestimonialsSection";
+import FAQ from "../components/FAQ/Faq";
 
 
 
@@ -26,6 +27,7 @@ export default function Home() {
         <SystembenefitsSection />
         <OfertasFormativasSection />
         <TestimonialsSection />
+        <FAQ />
       </main>
       <Footer />
     </div>
