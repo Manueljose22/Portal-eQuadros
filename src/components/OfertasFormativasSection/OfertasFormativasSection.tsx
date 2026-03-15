@@ -25,7 +25,7 @@ export default function OfertasFormativasSection() {
                     </div>
                     
 
-                    <div className="cursor-pointer flex flex-col justify-between h-[18rem]   px-4 gap-4 border-[1px] border-[#ddd] rounded-lg p-4 hover:shadow-lg transition-shadow">
+                    <div className="cursor-pointer flex flex-col justify-between h-[18rem]  px-4 gap-4 border-[1px] border-[#ddd] rounded-lg p-4 hover:bg-[#DFE8EA]">
                         <h5 className="text-sm font-bold text-secondary mb-2 uppercase flex flex-col gap-1">
                             <span>Liderança Pública</span>
                             <span className="w-full h-[1px] bg-primary"></span>
@@ -33,11 +33,11 @@ export default function OfertasFormativasSection() {
                         <p className="text-base text-normal text-secondary">
                             Programa voltado para o desenvolvimento de competências de liderança no sector público, capacitando...
                         </p>
-                        <Link to="#" className="flex items-center text-primary mt-2">
+                        <Link to="#" className="flex items-center text-primary font-semibold mt-2">
                             <span>saber mais</span> <ArrowRight className="inline-block w-4 h-4 ml-1" />
                         </Link>
                     </div>
-                    <div className="cursor-pointer flex flex-col justify-between h-[18rem]  px-6 gap-4 border-[1px] border-[#ddd] rounded-lg p-4 hover:shadow-lg transition-shadow">
+                    <div className="cursor-pointer flex flex-col justify-between h-[18rem]  px-6 gap-4 border-[1px] border-[#ddd] rounded-lg p-4 hover:bg-[#DFE8EA]">
                         <h5 className="text-sm font-bold text-secondary mb-2 uppercase flex flex-col gap-1">
                             <span>Análise de Dados</span>
                             <span className="w-full h-[1px] bg-primary"></span>
@@ -45,11 +45,11 @@ export default function OfertasFormativasSection() {
                         <p className="text-base text-normal text-secondary">
                             Formação centrada na utilização de dados para apoiar decisões estratégicas, desenvolvendo compe...
                         </p>
-                        <Link to="#" className="flex items-center text-primary mt-2">
+                        <Link to="#" className="flex items-center text-primary font-semibold mt-2">
                             <span>saber mais</span> <ArrowRight className="inline-block w-4 h-4 ml-1" />
                         </Link>
                     </div>
-                    <div className="cursor-pointer flex flex-col justify-between h-[18rem]  px-6 gap-4 border-[1px] border-[#ddd] rounded-lg p-4 hover:shadow-lg transition-shadow">
+                    <div className="cursor-pointer flex flex-col justify-between h-[18rem]  px-6 gap-4 border-[1px] border-[#ddd] rounded-lg p-4 hover:bg-[#DFE8EA]">
                         <h5 className="text-sm font-bold text-secondary mb-2 uppercase flex flex-col gap-1">
                             <span>Gestão Estratégica</span>
                             <span className="w-full h-[1px] bg-primary"></span>
@@ -57,7 +57,7 @@ export default function OfertasFormativasSection() {
                         <p className="text-base text-normal text-secondary">
                             Formação orientada para o planeamento, gestão e implementação de estratégias institucionais, fortalecendo a capac...
                         </p>
-                        <Link to="#" className="flex items-center text-primary mt-2">
+                        <Link to="#" className="flex items-center text-primary font-semibold mt-2">
                             <span>saber mais</span> <ArrowRight className="inline-block w-4 h-4 ml-1" />
                         </Link>
                     </div>
