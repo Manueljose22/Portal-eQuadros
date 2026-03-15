@@ -33,11 +33,11 @@ export default function EcosystemSection() {
 
                     <div className="space-y-4 mb-6">
                         {checkItems.map((item, i) => (
-                            <div key={i} className="flex items-start gap-3">
-                                <div className="w-7 h-7 rounded-full bg-[#EEF4F8] flex items-center justify-center flex-shrink-0 mt-0.5">
+                            <div key={i} className="flex items-start bg-[#ffff] gap-3 rounded-md p-2  ">
+                                <div className="w-7 h-7 rounded-full  flex items-center justify-center flex-shrink-0 mt-0.5">
                                     {item.icon}
                                 </div>
-                                <p className="text-sm md:text-base text-primary leading-relaxed">{item.text}</p>
+                                <p className="text-sm md:text-sm text-primary leading-relaxed">{item.text}</p>
                             </div>
                         ))}
                     </div>
