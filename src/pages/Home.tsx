@@ -1,4 +1,5 @@
 import Header from "../components/layout/Header";
+import Footer from "../components/layout/Footer";
 
 
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <main className="flex-grow">
       </main>
+      <Footer />
     </div>
   );
 }
