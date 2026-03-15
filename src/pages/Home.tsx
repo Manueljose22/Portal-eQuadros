@@ -5,6 +5,7 @@ import StatsSection from "../components/statsSection/StatsSection";
 import EcosystemSection from "../components/EcosystemSection/EcosystemSection";
 import NewsSection from "../components/news/NewsSection";
 import FunctionalitiesSection from "../components/FunctionalitiesSection/FunctionalitiesSection";
+import SystembenefitsSection from "../components/SystembenefitsSection/SystembenefitsSection";
 
 
 
@@ -20,6 +21,7 @@ export default function Home() {
         <EcosystemSection />
         <NewsSection/>
         <FunctionalitiesSection />
+        <SystembenefitsSection />
       </main>
       <Footer />
     </div>
