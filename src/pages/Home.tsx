@@ -4,6 +4,7 @@ import Hero from "../components/hero/Hero";
 import StatsSection from "../components/statsSection/StatsSection";
 import EcosystemSection from "../components/EcosystemSection/EcosystemSection";
 import NewsSection from "../components/news/NewsSection";
+import FunctionalitiesSection from "../components/FunctionalitiesSection/FunctionalitiesSection";
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
 
         <EcosystemSection />
         <NewsSection/>
+        <FunctionalitiesSection />
       </main>
       <Footer />
     </div>
