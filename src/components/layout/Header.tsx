@@ -7,7 +7,7 @@ import { X } from "phosphor-react";
 
 
 export default function Header() {
-    const [menuOpen, setMenuOpen] = useState<Boolean>(false);
+    const [menuOpen, setMenuOpen] = useState<boolean>(false);
     const [scrollDir, setScrollDir] = useState("up")
     const [lastScrollY, setLastScrollY] = useState(0)
 
