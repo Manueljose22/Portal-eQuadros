@@ -41,10 +41,10 @@ export default function TestimonialsSection() {
 
                 <Swiper
                     modules={[Autoplay]}
-                    centeredSlides={true}
+                    centeredSlides={false}
                     spaceBetween={40}
                     loop={true}
-                    autoplay={{ delay: 3000, disableOnInteraction: false }}
+                    autoplay={{ delay: 3000, disableOnInteraction: true }}
                     breakpoints={{
                         0: { slidesPerView: 1 },
                         768: { slidesPerView: 2 },
