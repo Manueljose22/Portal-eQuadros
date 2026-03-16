@@ -34,9 +34,9 @@ export default function Header() {
 
     const navLinks = [
         { href: "/sobre", label: "sobre" },
-        { href: "/", label: "Notícias" },
-        { href: "/", label: "Eventos" },
-        { href: "/", label: "Oportunidades" },
+        { href: "/noticias", label: "Notícias" },
+        { href: "/eventos", label: "Eventos" },
+        { href: "/oportunidades", label: "Oportunidades" },
     ]
 
     return (
@@ -54,13 +54,13 @@ export default function Header() {
                     <Link to="/sobre" className="text-[#d8d8d8] hover:text-[#FFF]">
                         Sobre
                     </Link>
-                    <Link to="/" className="text-[#d8d8d8] hover:text-[#FFF]">
+                    <Link to="/noticias" className="text-[#d8d8d8] hover:text-[#FFF]">
                         Notiçias
                     </Link>
-                    <Link to="/" className="text-[#d8d8d8] hover:text-[#FFF]">
+                    <Link to="/eventos" className="text-[#d8d8d8] hover:text-[#FFF]">
                         Eventos
                     </Link>
-                    <Link to="/" className="text-[#d8d8d8] hover:text-[#FFF]" >
+                    <Link to="/oportunidades" className="text-[#d8d8d8] hover:text-[#FFF]" >
                         Oportunidades
                     </Link>
                 </nav>

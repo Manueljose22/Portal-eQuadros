@@ -5,6 +5,7 @@ import imgMapa from "../../public/img/mapa.png";
 import AboutSection from "../components/about/AboutSection";
 import { CardItem } from "../components/card/CardItem";
 import EcosystemSection from "../components/EcosystemSection/EcosystemSection";
+import { HeroComponent } from "../components/hero/HeroComponent";
 
 
 
@@ -16,27 +17,11 @@ export default function AboutPage() {
 
     return (
         <div className="min-h-screen flex flex-col">
-            <Header />
-            <div className="h-screen max-h-[75vh]  w-full mb-12">
-                <img
-                    src={imgHero}
-                    alt="Imagem de destaque"
-                    className="absolute inset-0 w-full h-full object-cover max-h-[75vh]"
-                />
-
-                <div className="absolute inset-0 bg-black/50 max-h-[75vh]"></div>
-
-                <div className="relative z-20 container mx-auto h-full flex flex-col justify-center items-center px-4 md:px-20">
-                    <div className="max-w-lg w-full mt-20">
-                        <h1 className="text-2xl md:text-1xl lg:text-[42px] font-bold text-white mb-4 text-center">
-                            Sobre a eQuadros
-                        </h1>
-                        <p className="text-lg md:text-xl lg:text-base text-white mb-8  text-center">
-                            A plataforma nacional que conecta talento, dados e oportunidades para fortalecer a Administração Pública e o desenvolvimento estratégico de Angola.
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <HeroComponent 
+                title="Sobre a eQuadros"
+                description="Lorem ipsum neque vitae malesuada sit nec in sagittis mauris diam nec mattis mattis integer id justo varius rhoncus dignissim semper urna malesuada tempor at sit lectus amet."
+                searchShow={false}
+            />
             <AboutSection type="page" />
 
             <div className="container-max bg-white px-4 lg:px-[100px]">
