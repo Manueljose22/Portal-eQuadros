@@ -1,7 +1,5 @@
-import Header from "../components/layout/Header";
-import imgHero from "../../public/img/hero2.jpg";
 import imgLogoGov from "../../public/img/logo-gov.png";
-import imgMapa from "../../public/img/mapa.png";
+import imgMapa from "../../public/img/angola-mapa.png";
 import AboutSection from "../components/about/AboutSection";
 import { CardItem } from "../components/card/CardItem";
 import EcosystemSection from "../components/EcosystemSection/EcosystemSection";
