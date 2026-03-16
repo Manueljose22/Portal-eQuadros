@@ -33,7 +33,7 @@ export default function Header() {
 
 
     const navLinks = [
-        { href: "/", label: "sobre" },
+        { href: "/sobre", label: "sobre" },
         { href: "/", label: "Notícias" },
         { href: "/", label: "Eventos" },
         { href: "/", label: "Oportunidades" },
@@ -51,7 +51,7 @@ export default function Header() {
                 </Link>
 
                 <nav className="hidden md:flex items-center space-x-6 gap-5">
-                    <Link to="/" className="text-[#d8d8d8] hover:text-[#FFF]">
+                    <Link to="/sobre" className="text-[#d8d8d8] hover:text-[#FFF]">
                         Sobre
                     </Link>
                     <Link to="/" className="text-[#d8d8d8] hover:text-[#FFF]">

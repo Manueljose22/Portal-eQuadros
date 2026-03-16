@@ -32,6 +32,12 @@
 .bg-link-hover:hover{
     background-color: #20A9E6 !important;
 }
+
+.text-title {
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
 .card-bg {
   background-image: url("./public/img/network.png");
   background-repeat: no-repeat;

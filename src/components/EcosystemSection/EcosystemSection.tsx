@@ -2,6 +2,10 @@ import { Alarm, Handshake, UsersThree } from "phosphor-react";
 import AvatarStar from "./avatars";
 import { Link } from "react-router-dom";
 
+interface EcoProps{
+    bgColor?: string;
+    showBtn?: boolean
+}
 
 
 const checkItems = [
@@ -10,9 +14,9 @@ const checkItems = [
     { text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut", icon: <Alarm weight="fill" className="w-5 h-5 text-[#20A9E6]" /> },
 ];
 
-export default function EcosystemSection() {
+export default function EcosystemSection({bgColor = "bg-[#FBFBFB]", showBtn= true}: EcoProps) {
     return (
-        <section className="bg-[#FBFBFB]  py-10 px-8 mt-10 lg:mt-16">
+        <section className={`${bgColor} py-10 px-8 mt-10 lg:mt-16`}>
             <div className="px-4 lg:px-[100px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-[4rem] items-center justify-between">
 
                 <div className="lg:w-1/2 w-full">
@@ -42,9 +46,11 @@ export default function EcosystemSection() {
                         ))}
                     </div>
 
-                    <Link to="#" className="px-5 py-2.5 border border-[#1E3A5F] text-secondary text-sm md:text-base font-medium rounded-md  transition-colors inline-flex items-center gap-2">
+                    {showBtn &&  (
+                        <Link to="#" className="px-5 py-2.5 border border-[#1E3A5F] text-secondary text-sm md:text-base font-medium rounded-md  transition-colors inline-flex items-center gap-2">
                         Saber mais <span className="text-base">↗</span>
                     </Link>
+                    )}
                 </div>
 
             </div>
