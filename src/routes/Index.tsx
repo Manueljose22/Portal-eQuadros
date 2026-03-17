@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import AboutPage from "../pages/AboutPage";
 import EventsPage from "../pages/EventsPages";
+import OpportunitiesPage from "../pages/OpportunitiesPage";
 
 
 
@@ -12,6 +13,7 @@ export default function Index() {
         <Route path="/" element={<Home />} />
         <Route path="/sobre" element={<AboutPage />} />
         <Route path="/eventos" element={<EventsPage />} />
+        <Route path="/oportunidades" element={<OpportunitiesPage />} />
       </Routes>
     </BrowserRouter>
   );

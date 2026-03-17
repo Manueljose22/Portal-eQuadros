@@ -26,7 +26,7 @@ export const HeroComponent = ({ searchShow = true,description, title }: heroProp
                 <div className="absolute inset-0 bg-black/50 max-h-[75vh]"></div>
 
                 <div className="relative z-20 container mx-auto h-full flex flex-col justify-center items-center px-4 md:px-20">
-                    <div className="max-w-lg w-full mt-20">
+                    <div className="max-w-2xl w-full mt-20">
                         <h1 className="text-2xl md:text-1xl lg:text-[42px] font-bold text-white mb-4 text-center">
                             {title}
                         </h1>
