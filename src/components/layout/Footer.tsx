@@ -83,13 +83,13 @@ export default function Footer() {
                     </div>
                     <div>
                         <h5 className="text-base mb-4 text-white">Lorem ipsum vulputate magna orci pulvinar </h5>
-                        <div className="flex justify-between w-full overflow-hidden items-center rounded-full bg-white ">
+                        <div className="rounded-full bg-white  border-0 flex justify-between border-1 border-white">
                             <input
                                 type="email"
                                 placeholder="Adicionar email"
-                                className="bg-white w-40 py-2 px-4 rounded-full bg-white placeholder:text-gray-500 border-0 focus:ring-2 focus:ring-blue-[#20A9E6] focus:outline-none"
+                                className="placeholder:text-black/40 text-black/40 w-[90%] focus:outline-none focus:ring-0 py-2 px-4"
                             />
-                            <button className=" btn-primary text-white px-4 py-2 rounded-full hover:bg-blue-700 transition duration-300">
+                            <button className=" btn-primary text-white rounded-full w-20 flex items-center justify-center hover:bg-blue-700 transition duration-300">
                                 Enviar
                             </button>
                         </div>
@@ -100,3 +100,4 @@ export default function Footer() {
         </footer>
     )
 }
+
