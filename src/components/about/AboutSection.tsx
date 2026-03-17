@@ -53,7 +53,7 @@ export default function AboutSection({ type = "section" }: AboutsectionProps) {
                         )}
 
                     {type === "section" && (
-                        <Link to="#"
+                        <Link to="/sobre"
                             className="inline-flex mb-20 items-center gap-2 font-semibold text-[#1E3A5F] text-sm hover:text-blue-600 transition-colors duration-200 group"
                         >
                             Saber mais
