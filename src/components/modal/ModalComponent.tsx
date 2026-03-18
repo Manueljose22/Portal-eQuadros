@@ -1,6 +1,6 @@
 import { Dialog, DialogContent, IconButton } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
-import { Bank, Coins, CurrencyCircleDollar, CurrencyDollar, Money, Wallet } from "phosphor-react";
+import { Bank, CurrencyCircleDollar } from "phosphor-react";
 
 interface Props {
     open: boolean;

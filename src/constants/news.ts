@@ -9,7 +9,7 @@ import imgLN1 from "../../public/img/ln1.jpg"
 import imgLN2 from "../../public/img/ln2.jpg"
 import imgLN3 from "../../public/img/ln3.jpg"
 
-import imgCity from "../../public/img/city.jpg"
+// import imgCity from "../../public/img/city.jpg"
 
 import imgN11 from "../../public/img/n11.jpg"
 import imgN22 from "../../public/img/n22.jpg"
