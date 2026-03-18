@@ -11,7 +11,7 @@ export default function AboutSection({ type = "section" }: AboutsectionProps) {
 
     return (
         <section className={`${type === 'page' ? "lg:h-[auto]" : "lg:h-[395px]"} bg-[#E7F0F3] h-full  w-full mt-12 mb-[8rem]`}>
-            <div className={`${type === "page" ? 'px-4 lg:pl-[100px] py-8' : 'max-w-6xl px-8'} mx-auto   flex flex-col lg:flex-row  items-center justify-between gap-10`}>
+            <div className={`${type === "page" ? 'max-w-7xl mx-auto px-12 py-8' : 'max-w-7xl mx-auto px-12'} mx-auto   flex flex-col lg:flex-row  items-center justify-between gap-10`}>
                 <div className="">
                     <h2 className="text-[32px] lg:text-[36px] font-bold text-secondary mb-6 leading-snug mt-4">
                         O que é o{" "}
@@ -19,7 +19,7 @@ export default function AboutSection({ type = "section" }: AboutsectionProps) {
                     </h2>
 
                     {type === "section" ?
-                        (<>
+                        (<div className="max-w-2xl">
                             <p className="text-gray-600 text-base mb-4 leading-relaxed">
                                 O eQuadros é a plataforma tecnológica nacional para registo, gestão e
                                 valorização do capital humano em Angola.
@@ -30,7 +30,7 @@ export default function AboutSection({ type = "section" }: AboutsectionProps) {
                                 permite identificar competências, apoiar decisões estratégicas e
                                 fortalecer a gestão de quadros no sector público e privado.
                             </p>
-                        </>) :
+                        </div>) :
 
                         (
                             <>

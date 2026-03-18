@@ -47,7 +47,7 @@ export default function EcosystemSection({bgColor = "bg-[#FBFBFB]", showBtn= tru
                     </div>
 
                     {showBtn &&  (
-                        <Link to="#" className="px-5 py-2.5 border border-[#1E3A5F] text-secondary text-sm md:text-base font-medium rounded-md  transition-colors inline-flex items-center gap-2">
+                        <Link to="/sobre" className="px-5 py-2.5 border border-[#1E3A5F] text-secondary text-sm md:text-base font-medium rounded-md  transition-colors inline-flex items-center gap-2">
                         Saber mais <span className="text-base">↗</span>
                     </Link>
                     )}

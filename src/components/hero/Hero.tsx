@@ -5,7 +5,7 @@ import imgHero from "../../../public/img/hero.jpg";
 
 export default function Hero() {
     return (
-        <section className="relative h-screen w-full">
+        <section className="relative h-screen w-full ">
             <img
                 src={imgHero}
                 alt="Imagem de destaque"
@@ -14,7 +14,7 @@ export default function Hero() {
 
             <div className="absolute inset-0 bg-black/50"></div>
 
-            <div className="relative z-20 container mx-auto h-full flex flex-col justify-center items-start px-4 md:px-20">
+            <div className="relative z-20 container mx-auto  h-full flex flex-col justify-center items-start max-w-7xl mx-auto px-12">
                 <div className="max-w-xl w-full mt-20">
                     <h1 className="text-2xl wrap md:text-1xl lg:text-[42px] font-bold text-white mb-4">
                         Plataforma nacional de inteligência de capital humano.

@@ -9,7 +9,7 @@ export default function FunctionalitiesSection() {
 
     return (
         <section className="bg-white my-8 card-bg-f">
-            <div className="container mx-auto py-12 px-4 lg:px-[100px]">
+            <div className="container mx-auto py-12 max-w-7xl mx-auto px-12">
                 <h2 className="text-[32px] font-bold text-secondary mb-8 text-center">
                     Funcionalidades <span className="text-primary">Principais</span>
                 </h2>

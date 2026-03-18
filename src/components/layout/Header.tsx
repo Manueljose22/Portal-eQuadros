@@ -5,8 +5,12 @@ import { useEffect, useState } from "react";
 import { X } from "phosphor-react";
 
 
+interface HeaderProps{
+    bgColor?: string
+}
 
-export default function Header() {
+
+export default function Header({bgColor}: HeaderProps) {
     const [menuOpen, setMenuOpen] = useState<boolean>(false);
     const [scrollDir, setScrollDir] = useState("up")
     const [lastScrollY, setLastScrollY] = useState(0)
@@ -40,12 +44,10 @@ export default function Header() {
     ]
 
     return (
-        <header className={`
-        fixed top-0 left-0 w-full z-50 py-4 transition-transform duration-300
-        ${scrollDir === "down" ? "-translate-y-full" : "translate-y-0"}
+        <header className={`${bgColor} fixed top-0 left-0 w-full z-50 py-4 transition-transform duration-300 ${scrollDir === "down" ? "-translate-y-full" : "translate-y-0"}
       `}
         >
-            <div className="container mx-auto flex  h-14 items-center justify-between px-4 lg:px-[100px] ">
+            <div className="container mx-auto flex  h-14 items-center justify-between max-w-7xl mx-auto px-12 ">
                 <Link to="/">
                     <img src={imgLogo} alt="Logo do portal" className=" h-12 object-contain" />
                 </Link>
