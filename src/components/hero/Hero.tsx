@@ -14,9 +14,9 @@ export default function Hero() {
 
             <div className="absolute inset-0 bg-black/50"></div>
 
-            <div className="relative z-20 container mx-auto  h-full flex flex-col justify-center items-start max-w-7xl mx-auto px-12">
+            <div className="relative z-20 container mx-auto  h-full flex flex-col justify-center items-start max-w-7xl px-4 lg:px-12">
                 <div className="max-w-xl w-full mt-20">
-                    <h1 className="text-2xl wrap md:text-1xl lg:text-[42px] font-bold text-white mb-4">
+                    <h1 className="text-3xl wrap md:text-1xl lg:text-[42px] font-bold text-white mb-4">
                         Plataforma nacional de inteligência de capital humano.
                     </h1>
                     <p className="text-lg w-[20rem] md:text-xl lg:text-base text-white mb-8 ">

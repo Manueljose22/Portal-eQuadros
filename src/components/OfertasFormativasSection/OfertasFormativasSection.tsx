@@ -12,11 +12,11 @@ export default function OfertasFormativasSection() {
     const [open, setOpen] = useState(false);
     return (
         <div className="card-bg">
-            <div className="container-max mx-auto py-12 max-w-7xl mx-auto px-12">
+            <div className="container-max py-12 max-w-7xl mx-auto px-4 lg:px-12">
                 <div className="flex flex-col lg:flex-row gap-12 lg:gap-6 mb-12 items-center">
 
                     <div className="h-full">
-                        <h2 className="text-[32px]  font-bold text-secondary mb-4 text-start">
+                        <h2 className="text-2xl lg:text-[32px]  font-bold text-secondary mb-4 text-start">
                             Ofertas <span className="text-primary">Formativas</span>
                         </h2>
                         <p className="text-base text-normal text-secondary mb-6">

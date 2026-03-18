@@ -33,9 +33,9 @@ export default function TestimonialsSection() {
     return (
         <section className="pb-20 lg:pt-8 bg-white">
 
-            <div className="max-w-7xl mx-auto px-12">
+            <div className="max-w-7xl mx-auto px-4 lg:px-12">
 
-                <h2 className="text-[36px] font-bold text-secondary mb-14">
+                <h2 className="text-2xl lg:text-[36px] font-bold text-secondary mb-14">
                     Nossos <span className="text-primary">Testemunhos</span>
                 </h2>
 

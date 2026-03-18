@@ -18,11 +18,11 @@ export default function OfertasformativasPage() {
     return (
         <>
         <Header bgColor="bg-primary" />
-        <div className="max-w-7xl mx-auto px-12 lg:pt-30 pb-10 mt-12 sm:mt-20 sm:pt-20">
+        <div className="max-w-7xl mx-auto px-4 lg:px-12 lg:pt-30 pb-10 mt-12 sm:mt-20 sm:pt-20">
             <div className="grid lg:grid-cols-2 gap-6">
                 <div>
                     <div>
-                        <h2 className="text-[32px] lg:text-[36px] font-bold text-secondary mb-10 leading-snug mt-4 flex gap-2">
+                        <h2 className="text-2xl lg:text-[36px] font-bold text-secondary mb-10 leading-snug mt-4 flex gap-2">
                             Ofertas <span className="text-primary font-bold">Formativas</span>
                         </h2>
                     </div>

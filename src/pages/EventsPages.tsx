@@ -55,7 +55,7 @@ export default function EventsPage() {
                 description="Lorem ipsum neque vitae malesuada sit nec in sagittis mauris diam nec mattis mattis integer id justo varius rhoncus dignissim semper urna malesuada tempor at sit lectus amet."
             />
 
-            <div className="container-max px-4 lg:px-[100px] my-20">
+            <div className="max-w-7xl mx-auto px-4 lg:px-12 my-20">
                 <div className="grid grid-cols-1 lg:grid-cols-3 justify-between gap-10">
                     <CardInfo
                         img={imgE1}
@@ -72,7 +72,7 @@ export default function EventsPage() {
                 </div>
             </div>
 
-            <div className="bg-secondary px-4 lg:px-[100px] py-10">
+            <div className="bg-secondary px-4 lg:px-12 py-10">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 justify-center items-center">
                     <div>
                         <h2 className="text-[36px] font-bold text-secondary mb-14">
@@ -88,7 +88,7 @@ export default function EventsPage() {
                 </div>
             </div>
 
-            <div className="container-max px-4 lg:px-[100px] my-10">
+            <div className="max-w-7xl mx-auto px-4 lg:px-12 my-10">
                 <div className="mb-10">
                     <h2 className="text-2xl md:text-[36px] font-bold text-secondary mb-4 leading-snug">
                         Últimos <span className="text-primary">Eventos</span>
@@ -141,7 +141,7 @@ export default function EventsPage() {
             </div>
 
 
-            <div className="container-max px-4 lg:px-[100px] my-20 py-15 bg-secondary">
+            <div className="max-w-7xl mx-auto px-4 lg:px-12 my-20 py-15 bg-secondary">
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-15">
                     <CardVideo video={img1} />
                     <CardVideo video={img2} />

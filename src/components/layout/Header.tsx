@@ -47,7 +47,7 @@ export default function Header({bgColor}: HeaderProps) {
         <header className={`${bgColor} fixed top-0 left-0 w-full z-50 py-4 transition-transform duration-300 ${scrollDir === "down" ? "-translate-y-full" : "translate-y-0"}
       `}
         >
-            <div className="container mx-auto flex  h-14 items-center justify-between max-w-7xl mx-auto px-12 ">
+            <div className="container mx-auto flex  h-14 items-center justify-between max-w-7xl px-4 lg:px-12 ">
                 <Link to="/">
                     <img src={imgLogo} alt="Logo do portal" className=" h-12 object-contain" />
                 </Link>

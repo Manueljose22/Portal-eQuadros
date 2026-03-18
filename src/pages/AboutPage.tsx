@@ -22,8 +22,8 @@ export default function AboutPage() {
             />
             <AboutSection type="page" />
 
-            <div className="container-max bg-white px-4 lg:px-[100px]">
-                <h2 className="text-[32px] lg:text-[36px] font-bold text-secondary mb-10 leading-snug mt-4">
+            <div className="container-max bg-white px-4 lg:px-12">
+                <h2 className="text-2xl lg:text-[36px] font-bold text-secondary mb-10 leading-snug mt-4">
                     Principais <span className="text-primary">Finalidades</span>
                 </h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 justify-between gap-12">
@@ -64,8 +64,8 @@ export default function AboutPage() {
             </div>
 
             {/* Missão */}
-            <div className="px-4 lg:px-[100px] my-20">
-                <h2 className="text-[32px] lg:text-[36px] text-center font-bold text-secondary mb-10 leading-snug mt-4">
+            <div className="px-4 lg:px-12 my-20">
+                <h2 className="text-2xl lg:text-[36px] text-center font-bold text-secondary mb-10 leading-snug mt-4">
                     Missão, Valores e <span className="text-primary">Visão</span>
                 </h2>
 
@@ -104,7 +104,7 @@ export default function AboutPage() {
             </div>
 
             {/* Nossos Poios */}
-            <div className="bg-primary px-4 lg:pl-[100px] lg:pr-9 py-20 mt-10 h-full ">
+            <div className="bg-primary px-4 lg:pl-12 lg:pr-9 py-20 mt-10 h-full ">
                 <div className="relative grid grid-cols-1 lg:grid-cols-2 justify-between gap-12 items-center">
                     <div className="grid grid-cols-2 lg:grid-cols-3 gap-12 w-full mb-8">
                         {items.map((item) => (

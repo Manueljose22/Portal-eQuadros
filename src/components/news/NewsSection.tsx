@@ -41,8 +41,8 @@ export default function NewsSection() {
   return (
     <section className="bg-white py-16">
 
-      <div className="max-w-7xl mx-auto px-12 mb-12">
-        <h2 className="text-3xl lg:text-4xl font-bold text-secondary">
+      <div className="max-w-7xl px-4 lg:px-12  mb-12">
+        <h2 className="text-2xl lg:text-[36px] font-bold text-secondary">
           Notícias e <span className="text-primary">atualizações</span>
         </h2>
       </div>

@@ -21,7 +21,7 @@ export default function NewsPage() {
     const featured = filtered[0];
 
     return (
-        <div className="max-w-7xl mx-auto px-6 py-10">
+        <div className="max-w-7xl mx-auto px-4 lg:px-12 py-10">
             <HeroComponent
                 title="Notícias e atualizações"
                 description="Lorem ipsum neque vitae malesuada sit nec in sagittis mauris diam nec mattis mattis integer id justo varius rhoncus dignissim semper urna malesuada tempor at sit lectus amet."
@@ -33,7 +33,7 @@ export default function NewsPage() {
             />
 
             <div className="container mt-15">
-                <h2 className="text-[32px] lg:text-[36px] font-extrabold text-secondary mb-10 leading-snug mt-4 flex gap-2">
+                <h2 className="text-2xl lg:text-[36px] font-extrabold text-secondary mb-10 leading-snug mt-4 flex gap-2">
                     <span className="flex gap-2 items-center">Destaque  <div className="w-[0.3rem] h-[2rem] bg-primary"></div>
                     </span>  <span className="text-primary font-normal">Recentes</span>
                 </h2>
@@ -54,7 +54,7 @@ export default function NewsPage() {
             </div>
 
             {/*Negocios */}
-            <div className="max-w-7xl mx-auto px-6 py-10 m-8">
+            <div className="max-w-7xl mx-auto px-4 lg:px-12 py-10 m-8">
                 <div className="w-full lg:max-w-sm">
                     <h2 className="text-[32px] lg:text-[36px] font-extrabold text-secondary mb-3 leading-snug mt-4 flex gap-2">
                         Lorem <span className="text-primary font-normal">Negócios</span>
@@ -72,7 +72,7 @@ export default function NewsPage() {
                 </div>
             </div>
 
-            <div className="max-w-7xl mx-auto px-6 py-10 m-8">
+            <div className="max-w-7xl mx-auto px-4 lg:px-12py-10 m-8">
                 <div className="grid lg:grid-cols-3 gap-6 mt-8 items-center">
                     <div className="flex flex-col gap-2">
                         <h4 className="text-[15px] text-green-600 font-medium leading-tight flex items-center gap-1">
@@ -113,7 +113,7 @@ export default function NewsPage() {
             </div>
 
             
-            <div className="max-w-7xl mx-auto px-6 py-10 m-8">
+            <div className="max-w-7xl mx-auto px-4 lg:px-12 py-10 m-8">
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
                     {DesenvolvimentoDestaque.map((item) => (
                         <NewsCard key={item.id} news={item} />
@@ -123,7 +123,7 @@ export default function NewsPage() {
 
             <div className="max-w-7xl mx-auto px-6  py-10 m-8">
                 <div className="w-full lg:max-w-sm">
-                    <h2 className="text-[32px] lg:text-[36px] font-extrabold text-secondary mb-3 leading-snug mt-4 flex gap-2">
+                    <h2 className="text-2xl lg:text-[36px] font-extrabold text-secondary mb-3 leading-snug mt-4 flex gap-2">
                         Lorem <span className="text-primary font-normal">Negócios</span>
                     </h2>
                     <p className="text-base text-secondary">

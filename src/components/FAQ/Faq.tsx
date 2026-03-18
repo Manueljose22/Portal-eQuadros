@@ -36,7 +36,7 @@ export default function FAQ() {
         <section className="bg-white pb-16 pt-5">
             <div className="container-max mx-auto w-[90%] lg:w-[80%] ">
                 <div className="text-center">
-                    <h2 className="text-[36px] font-bold text-secondary px-4 lg:px-[100px]">
+                    <h2 className="text-2xl lg:text-[36px] font-bold text-secondary px-4 lg:px-12">
                         Perguntas <span className="text-primary">Frequentes</span>
                     </h2>
                     <div className="w-full lg:w-[600px] mx-auto mt-4">
@@ -50,7 +50,7 @@ export default function FAQ() {
                         faqs.map((faq, index) => (
                             <Accordion key={index} className="rounded-lg shadow-md mb-4">
                                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                                    <h3 className="text-lg font-semibold text-secondary flex items-center gap-5">
+                                    <h3 className="lg:text-lg font-semibold text-secondary flex items-center gap-5">
                                         <span>{index + 1}</span> <span>{faq.question}</span>
                                     </h3>
                                 </AccordionSummary>

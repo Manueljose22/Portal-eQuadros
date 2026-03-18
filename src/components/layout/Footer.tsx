@@ -13,7 +13,7 @@ export default function Footer() {
     return (
         <footer className="bg-dark ">
             <div className="container-max">
-                <div className="flex flex-col lg:flex-row items-center lg:justify-between gap-12 mb-12 border-2 border-[#1E3A5F] max-w-7xl mx-auto px-12 py-4 rounded-b-[5rem]">
+                <div className="flex flex-col lg:flex-row items-center lg:justify-between gap-12 mb-12 border-2 border-[#1E3A5F] max-w-7xl mx-auto px-4 lg:px-12 py-4 rounded-b-[5rem]">
 
                     <div className="flex justify-center lg:justify-start">
                         <img

@@ -11,9 +11,9 @@ export default function AboutSection({ type = "section" }: AboutsectionProps) {
 
     return (
         <section className={`${type === 'page' ? "lg:h-[auto]" : "lg:h-[395px]"} bg-[#E7F0F3] h-full  w-full mt-12 mb-[8rem]`}>
-            <div className={`${type === "page" ? 'max-w-7xl mx-auto px-12 py-8' : 'max-w-7xl mx-auto px-12'} mx-auto   flex flex-col lg:flex-row  items-center justify-between gap-10`}>
+            <div className={`${type === "page" ? 'max-w-7xl px-4 lg:px-12 py-8' : 'max-w-7xl mx-auto px-4 lg:px-12'} mx-auto   flex flex-col lg:flex-row  items-center justify-between gap-10`}>
                 <div className="">
-                    <h2 className="text-[32px] lg:text-[36px] font-bold text-secondary mb-6 leading-snug mt-4">
+                    <h2 className="text-2xl lg:text-[36px] font-bold text-secondary mb-6 leading-snug mt-4">
                         O que é o{" "}
                         <span className="text-primary">eQuadros</span>
                     </h2>

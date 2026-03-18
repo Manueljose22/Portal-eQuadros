@@ -14,7 +14,7 @@ export default function SystembenefitsSection() {
                     </div>
 
                     <div className="w-full flex flex-col  px-6 gap-1">
-                        <h2 className="text-[36px] w-full lg:w-5/6 font-bold text-secondary mb-4">
+                        <h2 className="text-2xl lg:text-[36px] w-full lg:w-5/6 font-bold text-secondary mb-4">
                             Como o sistema <span className="text-primary">bebeficia Angola</span>
                         </h2>
                         <div className="space-y-4">
