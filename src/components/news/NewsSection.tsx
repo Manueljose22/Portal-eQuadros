@@ -4,6 +4,7 @@ import v1 from "../../../public/videos/video1.mp4"
 import v2 from "../../../public/videos/video2.mp4"
 import v3 from "../../../public/videos/video3.mp4"
 import v4 from "../../../public/videos/video4.mp4"
+import { Link } from "react-router-dom"
 
 
 
@@ -40,7 +41,7 @@ export default function NewsSection() {
   return (
     <section className="bg-white py-16">
 
-      <div className="px-4 lg:px-[100px] mb-12">
+      <div className="max-w-7xl mx-auto px-12 mb-12">
         <h2 className="text-3xl lg:text-4xl font-bold text-secondary">
           Notícias e <span className="text-primary">atualizações</span>
         </h2>
@@ -117,9 +118,9 @@ export default function NewsSection() {
                       {video.description}
                     </p>
 
-                    <button className="text-sm font-medium hover:underline">
+                    <Link to={"/noticias"} className="text-sm font-medium">
                       Saber mais →
-                    </button>
+                    </Link>
 
                   </motion.div>
                 ) : (
