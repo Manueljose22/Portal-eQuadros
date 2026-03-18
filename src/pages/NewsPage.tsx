@@ -72,7 +72,7 @@ export default function NewsPage() {
                 </div>
             </div>
 
-            <div className="max-w-7xl mx-auto px-4 lg:px-12py-10 m-8">
+            <div className="max-w-7xl mx-auto px-4 lg:px-12 py-10 m-8">
                 <div className="grid lg:grid-cols-3 gap-6 mt-8 items-center">
                     <div className="flex flex-col gap-2">
                         <h4 className="text-[15px] text-green-600 font-medium leading-tight flex items-center gap-1">

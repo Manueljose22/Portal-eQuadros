@@ -13,7 +13,7 @@ export default function NewsCard({ news }: Props) {
 
             <img
                 src={news.image}
-                className="w-full lg:w-[401px] lg:h-[400px] object-cover group-hover:scale-105 transition"
+                className="w-full lg:w-[401px] h-full lg:h-[400px] object-cover group-hover:scale-105 transition"
             />
 
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />

@@ -10,7 +10,7 @@ export default function NewsListItem({ news }: { news: News }) {
     const color = colors[(news.id - 1) % colors.length];
 
     return (
-        <div className="flex gap-3 cursor-pointer items-center">
+        <div className="flex flex-col lg:flex-row gap-5 lg:gap-3 cursor-pointer items-center mt-8">
             <img
                 src={news.image}
                 className="w-full lg:max-w-[109px] h-[88px] object-cover rounded-lg flex-shrink-0"

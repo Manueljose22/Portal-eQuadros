@@ -28,7 +28,7 @@ export default function NewsVideoCard({video, title}: Props) {
             <div className="absolute inset-0 bg-[#0f2f4a]/70 group-hover:bg-[#0f2f4a]/60 transition-colors rounded-md"></div>
 
             <div className="absolute bottom-4  text-white">
-                <p className="text-2xl lg:text-[32px] font-medium max-w-[80%]">{title}</p>
+                <p className="text-xl lg:text-[32px] font-medium max-w-[80%]">{title}</p>
             </div>
         </div>
     )
